@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "134837622804",
+    "firebase_url": "https://filmoteca2019.firebaseio.com",
+    "project_id": "filmoteca2019",
+    "storage_bucket": "filmoteca2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134837622804:android:c9f4ffebcf16d922",
+        "android_client_info": {
+          "package_name": "com.filmoteca.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134837622804-g6viphuhkb4utm3mqfld4rlq79fvu86j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.filmoteca.app",
+            "certificate_hash": "652b6fc6cfd4dab0c0979078ca240d1909aa4adb"
+          }
+        },
+        {
+          "client_id": "134837622804-s0gabv57uhqbag16mr70srjuq3kuoinb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDir08-OMV5s2NuBuhJnm6whFSZKRdBDtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134837622804-s0gabv57uhqbag16mr70srjuq3kuoinb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

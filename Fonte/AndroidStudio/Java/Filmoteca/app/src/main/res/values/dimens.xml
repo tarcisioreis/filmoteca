@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="layoutmarginbottom">24dp</dimen>
+    <dimen name="textsize">15sp</dimen>
+    <dimen name="textsizeEditText">15sp</dimen>
+    <dimen name="paddingLeft">15dp</dimen>
+
+    <!-- Usado na Listagem de Generos de Filmes -->
+    <dimen name="layoutwidthcodigo">80dp</dimen>
+    <dimen name="layoutwidthnome">250dp</dimen>
+
+    <!-- Usado no Cadastro de Genero de Filmes -->
+    <dimen name="layoutmarginbottomCadastroGenero">8dp</dimen>
+    <dimen name="layoutmargintopCadastroGenero">24dp</dimen>
+    <dimen name="layoutwidthedCodigo">80dp</dimen>
+    <dimen name="layoutwidthedNome">300dp</dimen>
+    <dimen name="layoutwidthedAnoLancamento">80dp</dimen>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/background"
+    tools:context=".controller.GeneroCadastroActivity"
+    tools:showIn="@layout/activity_genero_cadastro">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/layoutmargintopCadastroGenero"
+                android:layout_marginBottom="@dimen/layoutmarginbottomCadastroGenero"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/layoutwidthedCodigo"
+                    android:layout_height="match_parent"
+                    android:text="@string/lbl_codigo"
+                    android:textColor="@drawable/colortextviewlist"
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:id="@+id/tvCodigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/lbl_codigo"
+                    android:textColor="@drawable/colortextviewlist"
+                    android:textSize="@dimen/textsize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/layoutwidthedCodigo"
+                    android:layout_height="match_parent"
+                    android:text="@string/lbl_nome"
+                    android:textColor="@drawable/colortextviewlist"
+                    android:textSize="@dimen/textsize" />
+
+                <EditText
+                    android:id="@+id/edNome"
+                    android:layout_width="@dimen/layoutwidthedNome"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@drawable/edittextstyle"
+                    android:gravity="left"
+                    android:hint="@string/lbl_nome"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textAlignment="gravity"
+                    android:textSize="@dimen/textsizeEditText" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|bottom"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btAcao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buttonshape"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
+                android:hint="@string/action_cancelar"
+                android:text="@string/action_cancelar"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

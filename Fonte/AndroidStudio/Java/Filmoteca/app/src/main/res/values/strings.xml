@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Filmoteca</string>
+    <string name="title_activity_list_genero">Listagem de Gêneros</string>
+    <string name="title_activity_list_filme">Listagem de Filmes</string>
+    <string name="title_activity_genero_cadastro">Cadastro de Gênero</string>
+    <string name="title_activity_filme_cadastro">Cadastro de Filme</string>
+
+    <string name="alerta_title">Informação!</string>
+    <string name="alerta_sair">Confirmar saída do aplicativo?</string>
+    <string name="alerta_excluir">Confirmar exclusão?</string>
+
+    <string name="hint_sim">Sim</string>
+    <string name="hint_nao">Não</string>
+    <string name="hint_genero">Gênero</string>
+    <string name="hint_filme">Filme</string>
+
+    <string name="action_voltar">Voltar</string>
+    <string name="action_sair">Sair</string>
+
+    <string name="hint_fechar">Fechar</string>
+    <string name="error_network">Verifique sua conexão!</string>
+
+    <string name="lbl_codigo">Código</string>
+
+    <!-- Usado para Genero de Filmes -->
+    <string name="lbl_nome">Nome</string>
+    <string name="error_nome">Informe nome válido!</string>
+
+    <!-- Usado para Filmes -->
+    <string name="lbl_titulo">Título</string>
+    <string name="lbl_diretor">Diretor</string>
+    <string name="lbl_anoLancamento">Ano de Lanç.</string>
+    <string name="lbl_genero">Gênero</string>
+
+    <string name="error_titulo">Informe título válido!</string>
+    <string name="error_genero">Informe um Gênero de Filme válido!</string>
+    <string name="error_list_genero">Não existem Gêneros cadastros. Faça o Cadastro de Gêneros!</string>
+
+    <string name="alerta_listview_zerado">Nenhum registro encontrado.</string>
+    <string name="alerta_sucesso">Operação executada com sucesso!</string>
+    <string name="alerta_error">Ocorreu erro inesperado na operação. Verifique!</string>
+    <string name="action_cancelar">Cancelar</string>
+    <string name="action_incluir">Incluir</string>
+    <string name="action_alterar">Alterar</string>
+    <string name="action_excluir">Excluir</string>
+</resources>
